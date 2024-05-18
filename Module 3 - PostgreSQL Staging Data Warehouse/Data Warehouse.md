@@ -43,7 +43,8 @@ and will contain the following dimensions:
 # 1. pgAdmin ERD Star Schema Design
 Will start now by creating a temporary database softcart to design the star schema using pgAdmin's ERD Design Tool. Next, I will create tables for each dimension/fact and design the relationships between them.
 
-ERD Schema
+![softcartRelationships](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/9ac6d27c-e800-4ca0-be48-84ce0ca9801c)
+
 
 # 2. Export Schema
 With the star schema designed, I can now export it as SQL and create our staging database.
@@ -113,6 +114,10 @@ END;
 ```
 > COMMIT
 > Query returned successfully in 180 msec.
+
+![createschema](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/47d47e00-d448-4de5-a83b-7cdeeaefad1d)
+
+
 # About This Lab
 Environment/IDE
 This portion of the project will be using the Cloud IDE based on Theia and PostgreSQL database running in a Docker container.
