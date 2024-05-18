@@ -12,22 +12,23 @@ First I will create the following tables and load their respective datasets.
 # 2. Aggregation Queries
 The first aggregation query will be a `GROUPING SETS` query using the columns `country`, `category`, and `totalsales`
 
+![groupingsets](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/e6ef01cf-bf0c-47b9-a0e0-22b27a92ceeb)
+
 
 Next I will write a `ROLLUP` query using the columns `year`, `country`, and `totalsales`
 
-
-This query produces the following output (first 10 rows). The full output can be viewed here: `rollup_data.csv`
+![rollup](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/ad42fc2f-b1bb-4833-9f1c-e97b8eb2bca9)
 
 
 Finally, I will write a `CUBE` query using the columns `year`, `country`, and `averagesales`
 
-
-This query produces the following output (first 10 rows). The full output can be viewed here: `cube_data.csv`
+![cube](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/3cbae528-6ac9-47f3-9b92-e148fcf70378)
 
 
 # 3. Materialized Query Table (MQT)
 I will create an MQT named `total_sales_per_country` based on the columns `country` and `totalsales`
 
+![mqt](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/9e5db73c-dc8c-4cb5-942e-c1af4334e701)
 
 
 # About This Lab
