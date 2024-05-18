@@ -101,26 +101,42 @@ Download the catalog.json file from https://cf-courses-data.s3.us.cloud-object-s
 # Exercise 2 - Working with MongoDB
 **Task 1 - Import ‘catalog.json’ into mongodb server into a database named ‘catalog’ and a collection named ‘electronics’**
 
+![mongoimport](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/dc9e6430-cbc7-4806-8986-1a8b62d65afa)
+
 
 **Task 2 - List out all the databases**
+
+![list-dbs](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/80339340-ece4-4c27-be61-f42ba0280e5c)
 
 
 **Task 3 - List out all the collections in the database catalog.**
 
+![list-collections](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/405110d6-d53f-40ac-9b47-5d4b4cb94a92)
+
 
 **Task 4 - Create an index on the field “type”**
+
+![create-index](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/d88727cd-adf0-4eb6-ac09-51754e365124)
 
 
 **Task 5 - Write a query to find the count of laptops**
 
+![mongo-query-laptops](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/7ea73ea4-c163-469c-bcf0-1451242879e2)
+
 
 **Task 6 - Write a query to find the number of smart phones with screen size of 6 inches.**
+
+![mongo-query-mobiles1](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/14a1e329-3641-4075-b259-6a3aa4d63e9a)
 
 
 **Task 7. Write a query to find out the average screen size of smart phones.**
 
+![mongo-query-mobiles2](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/77191ffc-605c-4846-8029-ca90f4f4b1b2)
+
 
 **Task 8 - Export the fields _id, “type”, “model”, from the ‘electronics’ collection into a file named electronics.csv**
+
+![mongoexport](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/24207fe2-75bb-4b87-ac93-1e2803df7e5a)
 
 
 End of assignment.
