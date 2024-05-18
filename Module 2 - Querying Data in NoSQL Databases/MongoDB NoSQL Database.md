@@ -2,9 +2,11 @@
 
 # Querying data in NoSQL databases
 
+### Assignment Overview
+In this assignment, you will perform a series of tasks in a single exercise. But before proceeding with the assignment, you will install the ‘mongoimport’ and ‘mongoexport’ in the lab environment and then download the JavaScript Object Notation (JSON) file. The exercise requires you to first import the JSON file to the MongoDB server into a database and a collection (electronics), then list out all the databases and the collections in the database catalog. Next, you will list the first five documents in the collection, and then you will write a query to find the count of laptops, the number of mobile phones with a screen size of 6 inches, and the average screen size of smartphones. Finally, you will export the ID, type, and model fields from the collection into a Comma Separated Values (CSV) file. After performing each task, you will take a screenshot of the command used, and the output obtained and give a name to the screenshot.
+
 > All of SoftCart's catalog data will be stored on a MongoDB NoSQL server. Create the database `catalog` and import our electronics products from `catalog.json` into a collection named `electronics`. Run test queries against the data and export the collection into a file named `electronics.csv` using only the `_id`, `type`, and `model` fields.
 
-> It is highly recommened that you finish the Setup and Practice Assignment Lab before you proceed with this Assignment.
 
 # Scenario
 You are a data engineer at an e-commerce company. Your company needs you to design a data platform that uses MongoDB as a NoSQL database. You will be using MongoDB to store the e-commerce catalog data.
