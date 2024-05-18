@@ -113,6 +113,7 @@ ALTER TABLE public."FactSales"
 END;
 ```
 > COMMIT
+> 
 > Query returned successfully in 781 msec.
 
 ![createschema](https://github.com/rupamdusane/IBM-Data_Engineering_Capstone_Project/assets/92736419/47d47e00-d448-4de5-a83b-7cdeeaefad1d)
